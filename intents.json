@@ -1,0 +1,203 @@
+{
+    "intents":[
+  {
+    "tag": "greeting",
+    "patterns": [
+       "Hi",
+       "hiiii",
+       "How are you?",
+       "Is anyone there?",
+       "Hello",
+       "Good day",
+       "What's up",
+       "how are ya",
+       "heyy",
+       "whatsup",
+       "??? ??? ??"
+    ],
+    "responses": [
+      "Hi there, how can I help?",
+      "Hello!",
+      "hello alix here , how can I help you ",
+      "hey, have a nice day",
+      "Hi, I am here to assist you"
+       
+    ],
+    "context_set": ""
+ },
+  {
+    "tag": "goodbye",
+    "patterns": [
+       "cya",
+       "see you",
+       "bye bye",
+       "See you later",
+       "Goodbye",
+       "I am Leaving",
+       "Bye",
+       "Have a Good day",
+       "talk to you later",
+       "ttyl",
+       "i got to go",
+       "gtg"
+    ],
+    "responses": [
+       "Sad to see you go :(",
+       "Talk to you later",
+       "Goodbye!",
+       "Come back soon"
+    ],
+    "context_set": ""
+ },
+  {
+    "tag": "creator",
+    "patterns": [
+       "what is the name of your developers",
+       "what is the name of your creators",
+       "what is the name of the developers",
+       "what is the name of the creators",
+       "who created you",
+       "your developers",
+       "your creators",
+       "who are your developers",
+       "developers",
+       "you are made by",
+       "you are made by whom",
+       "who created you",
+       "who create you",
+       "creators",
+       "who made you",
+       "who designed you"
+    ],
+    "responses": [
+       "AI Student Anushka Jadhav"
+    ],
+    "context_set": ""
+ },
+  {
+    "tag": "name",
+    "patterns": [
+       "name",
+       "your name",
+       "do you have a name",
+       "what are you called",
+       "what is your name",
+       "what should I call you",
+       "whats your name?",
+       "what are you",
+       "who are you",
+       "who is this",
+       "what am i chatting to",
+       "who am i taking to",
+       "what are you"
+    ],
+    "responses": [
+       "You can call me alix.",
+       "I'm Mind Reader",
+       "I am a Chatbot.",
+       "I am your helper"],
+    "context_set": ""
+   },
+   {
+    "tag": "thanks",
+    "patterns": ["Thanks", 
+        "Thank you", 
+        "That's helpful",
+        "Thanks for the help"],
+    "responses": [
+        "Happy to help!", 
+        "Any time!", 
+        "My pleasure", 
+        "You're most welcome!"],
+    "context_set": ""
+    },
+    {"tag": "about",
+     "patterns": [
+        "Who are you?",
+        "What are you?", 
+        "Who you are?" ],
+     "responses": [
+        "I.m Joana, your bot assistant", 
+        "I'm Joana, an Artificial Intelligent bot"],
+     "context_set": "" 
+    },
+    {
+    "tag": "help",
+    "patterns": [
+        "Could you help me?", 
+        "give me a hand please", 
+        "Can you help?", 
+        "What can you do for me?", 
+        "I need a support", 
+        "I need a help", 
+        "support me please"],
+    "responses": [
+        "Tell me how can assist you",
+        "Tell me your problem to assist you", 
+        "Yes Sure, How can I support you"],
+    "context_set": "" 
+    },
+    {
+    "tag": "complaint",
+    "patterns": [
+        "have a complaint", 
+        "I want to raise a complaint", 
+        "there is a complaint about a service"],
+    "responses": [
+        "Please provide us your complaint in order to assist you", 
+        "Please mention your complaint, we will reach you and sorry for any inconvenience caused"],
+    "context_set": "" 
+    },
+   {
+      "tag": "book_hotel",
+      "patterns": [
+        "book a hotel",
+        "make a hotel reservation",
+        "reserve a hotel room",
+        "hotel booking"
+      ],
+      "responses": [
+        "Sure, I can help you with that!",
+        "Please provide the following details to book a hotel.",
+        "Let's get started with your hotel booking!"
+      ],
+      "questions": [
+        "Enter the check-in date (DD-MM-YY):",
+        "Enter the check-out date (DD-MM-YY):",
+        "Enter the city(Mumbai,Gujrat,Surat,Lonavla):",
+        "Enter the number of people:"
+      ],
+      "context_set": ""
+   },
+   {
+      "tag": "cancel_booking",
+      "patterns": [
+         "cancel booking",
+         "cancel my booking",
+         "i want to cancel my booking",
+         "Cancel my room",
+         "cancel hotel reservation"],
+      "responses": ["I'm sorry to hear that. To cancel your booking, please provide the booking ID."],
+      "questions": [
+        "Enter your booking ID:"
+      ]
+    },
+    {
+      "tag": "modify_booking",
+      "patterns": [
+         "modify booking", 
+         "modify my booking", 
+         "change hotel reservation"],
+      "responses": ["Sure, to modify your booking, please provide the booking ID and the updated details."],
+      "questions": [
+        "Enter your booking ID:",
+        "Enter the updated check-in date (YYYY-MM-DD):",
+        "Enter the updated check-out date (YYYY-MM-DD):",
+        "Enter the updated city:",
+        "Enter the updated number of people:"
+      ]
+    }
+
+
+   ]
+}
